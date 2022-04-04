@@ -1,0 +1,119 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "BezierCurve.003",
+            "rotation" : [
+                -0.6687474846839905,
+                -0.052347950637340546,
+                -0.02734815701842308,
+                -0.7411400675773621
+            ],
+            "scale" : [
+                11.743433952331543,
+                11.743433952331543,
+                11.743433952331543
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Brushed Metal",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "BezierCurve.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 12141,
+            "max" : [
+                2.4891891479492188,
+                0.479693204164505,
+                0.5163581967353821
+            ],
+            "min" : [
+                -2.4180164337158203,
+                -0.42842337489128113,
+                -0.6346719861030579
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 12141,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 12141,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 24279,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 145692,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 145692,
+            "byteOffset" : 145692
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 97128,
+            "byteOffset" : 291384
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48558,
+            "byteOffset" : 388512
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 437072,
+            "uri" : "didalogo.bin"
+        }
+    ]
+}
