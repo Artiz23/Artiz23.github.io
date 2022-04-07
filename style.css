@@ -181,16 +181,19 @@
 
 @media (max-width:916px){
 
+ 
+
+
         body.lock{
             overflow: hidden;
         }
 
         .header__body{
-        height: 70px;
+        height: 60px;
         }
 
      .header__logo{
-        flex: 0 0 200px;
+        flex: 0 0 160px;
         
      }
 
@@ -268,11 +271,12 @@
 
             .header__list{
             display: block;
-            margin: 150px 0 0 90px;
+            margin: 100px 0 0 50px;
             }
 
             .header__list li{
-            margin: 40px 0 20px 0;
+            margin: 40px 0px 20px 0;
+            text-align: center;
             
             
             }
@@ -280,6 +284,10 @@
             .header__link{
                 font-size: 24px;
             }
+
+
+         
+
 }
 
 
@@ -304,25 +312,21 @@
 }
 
 .content__text__up{
-    color: white;
-    font-size: 20px;
-    
-   
-    
-               }
-
-
+ 
+ 
+  }
 
 .content__under__text__up{
+    color: white;
     margin: 50px 0 0 0;
     letter-spacing: 10px;
-
+    font-size: 20px;
 }
 
 .content__text__up h1{
     
-    
-    font-size: 90px;
+    color: white;
+    font-size: 70px;
     letter-spacing: 60px;
     text-shadow: 0 10px 80px rgb(255, 255, 255);
     
@@ -335,48 +339,4 @@
         padding: 0 0 0 0; 
     }
 }
-
-
-
-
-.content__d{
-    
-    position: relative;
-    top: 700px;
-   
-}
-
-
-.container__d{
-    max-width: 1180px;
-    margin: 0 auto;
-    padding: 0 10px;
-    
-}
-
-.content__text__d{
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-   position: relative;
-   top: 0px;
- }
-
-
-
-.content__under__text__d{
-    margin: 50px 0 0 0;
-    letter-spacing: 10px;
-
-}
-
-.content__text__d h1{
-    
-    
-    font-size: 90px;
-    letter-spacing: 60px;
-    text-shadow: 0 10px 80px rgb(255, 255, 255);
-    
-}
-
-
 
